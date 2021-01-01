@@ -1,0 +1,17 @@
+/* src/style.css */
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: orange;
+}
+a {
+  text-decoration: none;
+}

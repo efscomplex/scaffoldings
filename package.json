@@ -1,0 +1,28 @@
+{
+  "name": "scaffolding",
+  "version": "1.0.0",
+  "description": "different bundlers and configurations you can find here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efscomplex/scaffoldings.git"
+  },
+  "keywords": [
+    "scaffolding",
+    "wepack",
+    "esbuild",
+    "bundler",
+    "typescript",
+    "javascript",
+    "react"
+  ],
+  "author": "@easydev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efscomplex/scaffoldings/issues"
+  },
+  "homepage": "https://github.com/efscomplex/scaffoldings#readme"
+}

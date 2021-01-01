@@ -1,0 +1,32 @@
+{
+   "name": "proves",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "ENV=production node esbuild",
+      "dev": "ENV=development node esbuild",
+      "dev:watch": "nodemon --watch src -e tsx,ts,jsx,js,css,sass --exec yarn dev",
+      "servor": "servor ./dist index.html 8000 --reload",
+      "start": "yarn servor & yarn dev:watch",
+      "create": "bash scripts/create",
+      "start:chok": "yarn servor & chokidar \"**/*.js\" \"**/*.ts\" \"**/*.tsx\" -c yarn dev"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "chokidar-cli": "^2.1.0",
+      "esbuild": "^0.8.14",
+      "servor": "^4.0.2"
+   },
+   "dependencies": {
+      "nodemon": "^2.0.6",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "styled-components": "^5.2.1"
+   }
+}
